@@ -26,4 +26,10 @@
     <node pkg="diagnostic_aggregator" type="aggregator_node" name="diagnostic_aggregator">
         <rosparam command="load" file="$(find husky_base)/config/diagnostics.yaml" />
     </node>
+    
+    <group if="$(arg foo)">
+        <!-- stuff that will only be evaluated if foo is true -->
+    </group>
+
+    <param name="foo" value="bar" unless="$(arg foo)" /> <!-- This param won't be set when "unless" condition is met -->
 </launch>
