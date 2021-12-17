@@ -29,4 +29,9 @@ add_service_files(
 	FILES
 	Nam
   )
+  
+generate_messages(
+   DEPENDENCIES
+   geometry_msgs#   iiwa_msgs#   moveit_msgs#   sensor_msgs#   std_msgs#   tf2_msgs#   trajectory_msgs
+ )
 ```
