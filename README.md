@@ -1,5 +1,10 @@
 # ROS_templates
 This repo is a collection of the main ROS templates 
+## Create srv file first (e.g. ServiceOne.srv)
+int64 num1
+int64 num2
+/---
+bool success
 
 ## Build service C++
 ```
