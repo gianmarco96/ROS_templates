@@ -38,7 +38,7 @@ generate_messages(
 ```
 
 
-##Building a node in CMake
+## Building a node in CMake
 ```
 add_executable(${PROJECT_NAME}_node src/readState.cpp)
 
