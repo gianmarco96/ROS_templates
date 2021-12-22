@@ -34,4 +34,19 @@ generate_messages(
    DEPENDENCIES
    geometry_msgs#   iiwa_msgs#   moveit_msgs#   sensor_msgs#   std_msgs#   tf2_msgs#   trajectory_msgs
  )
+ 
+```
+
+
+##Building a node in CMake
+```
+add_executable(${PROJECT_NAME}_node src/readState.cpp)
+
+add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+target_link_libraries(${PROJECT_NAME}_node
+  ${catkin_LIBRARIES}
+)
+
+
 ```
