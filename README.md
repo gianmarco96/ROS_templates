@@ -50,3 +50,6 @@ target_link_libraries(${PROJECT_NAME}_node
 
 
 ```
+
+
+### P.S. ROS server callback should always be a bool to indicate success/failure
