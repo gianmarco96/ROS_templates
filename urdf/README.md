@@ -6,7 +6,12 @@ Unified Robot Description Format URDF_
 
     git clone https://github.com/ros/urdf_tutorial.git
 
+
 In this chapter we will create a model of Epson SCARA Robot.
+
+TIDY UP!!!!!!!!!! 
+http://wiki.ros.org/urdf/XML/link
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 In the workspace in the ``src`` directory create a folder called Robots, where we will put all robot description packages. ::
 
