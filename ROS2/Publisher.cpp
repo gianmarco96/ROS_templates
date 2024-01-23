@@ -16,3 +16,7 @@ int main(int argc, char **argv)
     loop_rate.sleep();
   }
 }
+
+
+// You can do it via command line as well:
+// ros2 topic pub -r 1 /test std_msgs/msg/String "{data: 'test'}"
