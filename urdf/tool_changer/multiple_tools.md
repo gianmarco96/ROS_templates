@@ -1,3 +1,4 @@
+# NOT TESTED
 Swapping tools or end-effectors in ROS 2 using MoveIt involves updating the robot's kinematic model and planning scene to reflect the change in hardware. This allows the robot to plan and execute motions accurately with the new tool. Below is a comprehensive guide on how to achieve tool swapping in MoveIt for ROS 2.
 
 ## Overview
